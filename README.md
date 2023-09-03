@@ -1,15 +1,26 @@
-# Interrilato: Exploring Data Relationships
-
-This repository contains all the code for paper Crime Analysis in India with Interactive Visualization published in International Journal of Computer Applications September 2021 Edition
-
-|                                (Map depicting crime in India                                 |                                 Map depicting poverty in India                                 |
-| :------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
-| ![](https://github.com/avani1998/IndiaChoropleth/blob/master/images/crimerates.PNG?raw=true) | ![](https://github.com/avani1998/IndiaChoropleth/blob/master/images/povertyrates.PNG?raw=true) |
-
-|                                 Map depicting literacy in India                                 |                                 Map depicting unemployment in India                                 |
-| :---------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
-| ![](https://github.com/avani1998/IndiaChoropleth/blob/master/images/literacyrates.PNG?raw=true) | ![](https://github.com/avani1998/IndiaChoropleth/blob/master/images/unemploymentrate.PNG?raw=true)) |
-
-### Acknowledgements
-
-[geohacker](https://github.com/geohacker/india/blob/master/state/india_state.geojson) - Geojson data was taken from here
+# Objectives
+The main objectives of the project are as follows:
+1. Explore crime rate in India.
+2. Detection of patterns among unrelated data attributes by
+implementing a basic model using Multiple Linear regression.
+3. Implement novel visualization techniques for interactive
+visualization.
+4. Analyze the results
+# Installing Plotly for interactive graphs
+Firsly install cufflinks
+```
+pip install cufflinks
+```
+**or**
+through conda terminal (To open conda terminal open Start menu and type anaconda prompt)
+```
+conda install -c conda-forge cufflinks-py
+```
+plotly.py may be installed using pip...
+```
+pip install plotly
+```
+**or** through conda terminal
+```
+conda install -c plotly plotly=4.6.0
+```
